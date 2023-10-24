@@ -5,7 +5,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
 
-describe('veiculo', () => {
+describe('teste Accenture', () => {
     it('cadastrar um veiculo', () => {
         cy.visit("http://sampleapp.tricentis.com/101/app.php")
         cy.get('#make').select('Audi')
